@@ -2,9 +2,61 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GTA 5 RP — Главная</title>
   <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* Временные стили прямо в index.html (на случай, если css не подгружается) */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #1a1a1a;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #aaa;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover,
+    nav a.active {
+      color: #ffcc00;
+      font-weight: bold;
+      border-bottom: 2px solid #ffcc00;
+    }
+
+    section.groups {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .group {
+      background-color: #1f1f1f;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #777;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
@@ -17,20 +69,20 @@
     </nav>
   </header>
 
-  <!-- Основной контент -->
+  <!-- Контент -->
   <section class="groups">
     <div class="group">
-      <h2>Добро пожаловать на GTA 5 RP</h2>
-      <p>Это главная страница твоего сайта. Здесь можно разместить новости, описание сервера, информацию для игроков и так далее.</p>
+      <h1>Добро пожаловать на GTA 5 RP</h1>
+      <p>Это главная страница вашего проекта. Здесь можно разместить описание сервера, новости, правила и полезную информацию для игроков.</p>
     </div>
 
     <div class="group">
-      <h3>Особенности сервера</h3>
+      <h2>Преимущества сервера</h2>
       <ul>
-        <li>Уникальная система ролей</li>
-        <li>Интересные миссии</li>
-        <li>Активная администрация</li>
-        <li>Ежедневные ивенты</li>
+        <li>Интересный и проработанный ролевой мир</li>
+        <li>Мощная экономика и система фракций</li>
+        <li>Активная администрация и поддержка</li>
+        <li>Регулярные обновления и ивенты</li>
       </ul>
     </div>
   </section>
